@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Cira Management">
+	<listeners>
+		<listener class-name="com.ciranet.testlisteners.TestListener" />
+	</listeners>
+	
+	<test thread-count="1" name="Login Test Cases" enabled="false">
+		<classes>
+			<class name="com.ciranet.loginpage.testcases.LoginPageTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="HomePageTest" enabled="false">
+		<classes>
+			<class name="com.ciranet.homepage.testcases.HomePageTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="InternalTasksPageTest" enabled="true">
+		<classes>
+			<class name="com.ciranet.myworkqueue.testcases.internalTasksPageTest"
+			>
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="ComMgmtBoardApprovalsPageTest" enabled="false">
+		<classes>
+			<class name="com.ciranet.myworkqueue.testcases.ComMgmtBoardApprovalsPageTest">
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="ComMgmtCommonLotsAppraisalPageTest" enabled="false">
+		<classes>
+			<class name="com.ciranet.myworkqueue.testcases.ComMgmtCommonLotsAppraisalPageTest">
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="Fulfillment Queue Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.myworkqueue.testcases.ComMgmtFulfillmentQueuePageTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="Maintenance Work Orders Page" enabled="false">
+		<classes>
+			<class name="com.ciranet.myworkqueue.testcases.ComMgmtMaintenanceWorkOrdersPageTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="Disclosure Processing Closing Requests Page" enabled="false">
+		<classes>
+			<class name="com.ciranet.myworkqueue.testcases.DiscloProcessingClosingRequestsPageTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="Projects Tasks Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.myworkqueue.testcases.ProjectsTasksPageTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="Statement Approval Queue Page" enabled="false">
+		<classes>
+			<class name="com.ciranet.myworkqueue.testcases.ReceiLockStatementApprovalQueuePageTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+		
+	<test thread-count="1" name="Violetion review Queue Page" enabled="false">
+		<classes>
+			<class name="com.ciranet.myworkqueue.testcases.ComMgmtViolationReviewPageTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="GLUpload Budgets Page" enabled="false">
+		<classes>
+			<class name="com.ciranet.corporatecirabooks.testcases.GLUploadBudgetsPageTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+	
+<test thread-count="1" name="Billing Item Management Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.myportfolio.testcases.RevMgmtBillingItemManagementPageTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+	
+	
+<test thread-count="1" name="Community Blocks Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.myworkqueue.testcases.DiscloProcessingCommunityBlocksPageTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+
+
+<test thread-count="1" name="Board members Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.boardmembers.testcases.BoardMemberPageTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="Disclo Processing Property Conveyance Page" enabled="false">
+		<classes>
+			<class name="com.ciranet.myworkqueue.testcases.DiscloProcessingPropertyConveyancePageTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+
+<test thread-count="1" name="Internal Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.internaluser.testcases.InternalUserPageTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+
+<test thread-count="1" name="Configurations Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.configurations.testcases.BatchJobEmailsConfigPageTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="Configuration Modules Click Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.configurations.testcases.ConfigModulesClickPagesTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="Configuration Response Template Click Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.configurations.testcases.ConfigResponseTemplatesClickPagesTest">		                                           
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="Configuration Closing Portal Click Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.configurations.testcases.ClosingPortalConfigPageTest">		                                           
+		</class>
+		</classes>
+	</test>
+	
+	
+		<test thread-count="1" name="Configuration Community Configuration Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.configurations.testcases.CommunityConfigPageTest">		                                           
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="Community Accounting Click Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.configurations.testcases.ConfigCommunityAccountingClickPagesTest">			                                           
+		</class>
+		</classes>
+	</test>
+	
+	
+	<test thread-count="1" name="Configuration Enforcement Click Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.configurations.testcases.ConfigEnforcementClickPagesTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+	
+	
+	<test thread-count="1" name="Configuration Process Tracker Click Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.configurations.testcases.ConfigProcessTrackerClickPagesTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="Configuration Report Templates Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.configurations.testcases.ConfigReportTemplatesClickPagesTest">
+				                                           
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="Configuration Services Click Page Test" enabled="false">
+		<classes>
+			<class name="com.ciranet.configurations.testcases.ConfigServicesClickPagesTest">			                                           
+		</class>
+		</classes>
+	</test>
+</suite> 
